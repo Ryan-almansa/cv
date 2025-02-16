@@ -174,12 +174,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #263238; /* Fond gris foncé */
-    color: #ffffff; /* Texte blanc */
+    background-color: #263238; 
+    color: #ffffff; 
 }
 
 header {
-    background: #1e88e58f; /* Bleu léger avec transparence */
+    background: #1e88e58f; 
     color: white;
     padding: 20px;
     text-align: center;
@@ -193,9 +193,9 @@ h1 {
 .contact {
     margin: 20px;
     padding: 20px;
-    background: #455A64; /* Gris-bleu doux pour la section */
+    background: #455A64; 
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Ombre pour profondeur */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
 }
 
 .intro {
@@ -205,12 +205,13 @@ h1 {
 
 .intro h2 {
     font-size: 1.8em;
-    color: #FFEB3B; /* Jaune vif pour attirer l'attention */
+    color: #FFEB3B; 
 }
+
 
 .intro p {
     font-size: 1.2em;
-    color: #E0E0E0; /* Gris clair pour une lecture facile */
+    color: #E0E0E0; 
 }
 
 .contact-info {
@@ -220,21 +221,21 @@ h1 {
 .contact-info h2 {
     font-size: 2em;
     margin-bottom: 10px;
-    color: #FFEB3B; /* Jaune vif pour les titres */
+    color: #FFEB3B; 
 }
 
 .contact-info p {
     font-size: 1.2em;
-    color: #E0E0E0; /* Gris clair pour les informations */
+    color: #E0E0E0; 
 }
 
 .contact-info a {
-    color: #a7eb09; /* Vert vif pour les liens */
+    color: #a7eb09; 
     text-decoration: none;
 }
 
 .contact-info a:hover {
-    color: #6FBF73; /* Vert plus clair au survol */
+    color: #6FBF73; 
 }
 
 .form {
@@ -243,7 +244,7 @@ h1 {
 
 .form h2 {
     font-size: 1.8em;
-    color: #FFEB3B; /* Jaune vif pour les titres */
+    color: #FFEB3B; 
     margin-bottom: 15px;
 }
 
@@ -283,6 +284,132 @@ button:hover {
 
 footer {
     background-color: #263238; /* Fond sombre pour le pied de page */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+}
+/*********Profil***********/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #263238; /* Fond gris foncé */
+    color: #ffffff; /* Texte blanc */
+}
+
+header {
+    background: #1e88e58f; /* Bleu léger avec transparence */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.profil {
+    margin: 20px;
+    padding: 20px;
+    background: #455A64; /* Gris-bleu doux pour la section */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Ombre pour profondeur */
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.intro h2 {
+    font-size: 1.8em;
+    color: #FFEB3B; /* Jaune vif pour attirer l'attention */
+}
+
+.intro p {
+    font-size: 1.2em;
+    color: #E0E0E0; /* Gris clair pour une lecture facile */
+}
+
+.profil-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.profil-details .photo {
+    flex: 0 0 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profil-details .photo img {
+    width: 100%;
+    border-radius: 50%;
+    max-width: 150px;
+}
+
+.profil-details .details {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.profil-details h2 {
+    font-size: 2em;
+    color: #ffeb3bab; 
+} 
+
+.profil-details h3 {
+    font-size: 1.5em;
+    color: #FF7043; 
+}
+
+.profil-details p, .profil-details ul {
+    font-size: 1.2em;
+    color: #E0E0E0; 
+}
+
+.profil-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.profil-details ul li {
+    margin: 5px 0;
+}
+
+.projets {
+    margin-top: 30px;
+}
+
+.projets h2 {
+    font-size: 2em;
+    color: #FFEB3B;
+    margin-bottom: 20px;
+}
+
+.projet-item {
+    background: #458285; 
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.projet-item h3 {
+    font-size: 1.8em;
+    color: #FF7043; 
+}
+
+footer {
+    background-color: #263238; 
     color: white;
     text-align: center;
     padding: 15px;
