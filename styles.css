@@ -75,3 +75,97 @@ a:hover {
 .hidden {
     display: none;
 }
+
+
+/*********experience*******************/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #263238; 
+    color: #ffffff; 
+}
+
+header {
+    background: #1e88e58f; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.experience {
+    margin: 20px;
+    padding: 20px;
+    background: #455A64; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.intro h2 {
+    font-size: 1.8em;
+    color: #FFEB3B; 
+}
+
+.intro p {
+    font-size: 1.2em;
+    color: #E0E0E0; 
+}
+
+.exp-list h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #FFEB3B; 
+}
+
+.experience-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #81C784; 
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.experience-item h3 {
+    font-size: 1.5em;
+    color: #FF7043;
+}
+
+.experience-item .date {
+    font-size: 1.1em;
+    color: #B0BEC5; 
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #263238;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+}
+
+a {
+    color: #a7eb09; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #c4e772da; 
+}
+
