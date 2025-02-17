@@ -603,6 +603,11 @@ a:hover {
     font-family: Arial, sans-serif;
     color: #333;
 }
+.snu-image {
+    width: 200px; 
+    height: auto; 
+}
+
 
 h2 {
     font-size: 2em;
