@@ -283,7 +283,7 @@ h1 {
 }
 
 button {
-    background-color: #FF7043; /* Rouge orangé pour le bouton */
+    background-color: #FF7043; 
     color: white;
     padding: 10px 20px;
     border: none;
@@ -293,11 +293,11 @@ button {
 }
 
 button:hover {
-    background-color: #FF5722; /* Rouge plus intense au survol */
+    background-color: #FF5722; 
 }
 
 footer {
-    background-color: #263238; /* Fond sombre pour le pied de page */
+    background-color: #263238; 
     color: white;
     text-align: center;
     padding: 15px;
@@ -557,4 +557,17 @@ a:hover {
 
 .hidden {
     display: none;
+}
+
+
+/***reduire les image de la categorie competence****/
+#competences-images {
+    display: inline; /* Pour ranger les images*/
+    justify-content: space-between ; /* Espacement entre les images */
+}
+
+.dynamic-image {
+    width: 150px; /* Reduit la largeur à 100px, ajuste selon tes besoins */
+    height: auto; /* Garde les proportions de l'image */
+    max-width: 100%; /* Empêche l'image de dépasser sa taille maximale */
 }
