@@ -42,6 +42,21 @@ h2 {
     color: #FFEB3B;
 }
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+#competences {
+    width: 45%;
+}
+
+#contact {
+    width: 45%;
+}
+
 .competence {
     background: #81C784; 
     padding: 5px;
@@ -70,7 +85,6 @@ a:hover {
     text-decoration: underline;
     color: #c4e772da; 
 }
-
 
 .hidden {
     display: none;
@@ -364,7 +378,7 @@ h1 {
 .profil-details h2 {
     font-size: 2em;
     color: #ffeb3bab; 
-} 
+}     
 
 .profil-details h3 {
     font-size: 1.5em;
