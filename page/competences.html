@@ -1,0 +1,84 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon CV en Ligne</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#profil">Profil</a></li>
+            <li><a href="#experience">Expériences</a></li>
+            <li><a href="#formation">Formation</a></li>
+            <li><a href="#competences">Compétences</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <div class="header-container">
+            <div class="header-text">
+                
+            </div>
+            <img src="../asset/serieux.jpg" class="header-image" alt="Sérieux">
+        </div>
+    </header>
+    
+    <section id="profil">
+        <h2>Profil</h2>
+        <p>j'aime beaucoup confectionner des petites application et site web en solitaire mais quand les choses prennent de l'enpleure j'adore etre en equipe et avancer à plusieur </p>
+    </section>   
+    
+    <div class="container">
+        <section id="competences" class="competences-accueil">
+            <h2>Compétences</h2>
+            <div class="competence">
+                <p>JavaScript</p>
+                <div class="progress" data-width="35%"></div>
+            </div>
+            <div class="competence">
+                <p>C++</p>
+                <div class="progress" data-width="5%"></div>
+            </div>
+            <div class="competence">
+                <p>HTML</p>
+                <div class="progress" data-width="90%"></div>
+            </div>
+            <div class="competence">
+                <p>CSS</p>
+                <div class="progress" data-width="90%"></div>
+            </div>
+            <div class="competence">
+                <p>PHP My admin</p>
+                <div class="progress" data-width="68%"></div>
+            </div>
+            <div class="comment-section">
+                <h3>Commentaire</h3>
+                <p> 
+                    <b>JavaScript :</b> Étant donné que je viens de commencer le JavaScript, je ne suis pas encore au point, même si j'aime bien m'amuser avec pour quelques trucs. <br><br><br>
+                    <b>C++ :</b> De même, je n'ai commencé que depuis cette année. Je suis en évolution constante, bien que je rencontre quelques difficultés. <br><br><br>
+                    <b>HTML :</b> Cela fait plusieurs années que je manipule le HTML. Je n'ai plus tellement de difficultés à rencontrer, mais je ne me mets pas à 100 % car je pense que c'est un travail perpétuel à maintenir. <br><br><br>
+                    <b>CSS :</b> Le CSS cela fait aussi quelques années que je le manipule. Bien qu'il soit facile à prendre en main, je ne me mets pas à 100 %. J'estime que j'en apprends de jour en jour puisque je suis étudiant. <br><br><br>
+                    <b>PHP MyAdmin :</b> Outil de développement facile à comprendre pour les projets en groupe, comme les applications web et les relations entre différentes tables pour les bases de données. Bien qu'il soit simple d'utilisation, je pense que je continuerai d'en apprendre un peu plus à chaque fois.
+                </p>
+                
+                    <div class="comment-section">
+                    <button class="like-button" onclick="incrementLike()">👍 Like <span id="like-count">0</span></button>
+                </div>
+            </div>
+        </section>
+
+        <section id="competences-images">
+            <img src="../asset/java script.gif" class="dynamic-image" alt="JS">
+            <img src="../asset/" class="dynamic-image" alt="C++">
+            <img src="../asset/html.gif" class="dynamic-image" alt="HTML">
+            <img src="../asset/css.gif" class="dynamic-image" alt="CSS">
+            <img src="../asset/" class="dynamic-image" alt="PHP">
+        </section>
+    </div>
+
+    <script src="../java.js"></script> 
+
+</body>
+</html>
