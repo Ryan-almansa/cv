@@ -312,12 +312,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #263238; /* Fond gris foncé */
-    color: #ffffff; /* Texte blanc */
+    background-color: #263238; 
+    color: #ffffff; 
 }
 
 header {
-    background: #1e88e58f; /* Bleu léger avec transparence */
+    background: #1e88e58f;
     color: white;
     padding: 20px;
     text-align: center;
@@ -331,9 +331,9 @@ h1 {
 .profil {
     margin: 20px;
     padding: 20px;
-    background: #455A64; /* Gris-bleu doux pour la section */
+    background: #455A64; 
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Ombre pour profondeur */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
 }
 
 .intro {
@@ -343,12 +343,12 @@ h1 {
 
 .intro h2 {
     font-size: 1.8em;
-    color: #FFEB3B; /* Jaune vif pour attirer l'attention */
+    color: #FFEB3B; 
 }
 
 .intro p {
     font-size: 1.2em;
-    color: #E0E0E0; /* Gris clair pour une lecture facile */
+    color: #E0E0E0; 
 }
 
 .profil-details {
