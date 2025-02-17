@@ -52,3 +52,15 @@ let likeCount = 0;
             likeCount++;
             document.getElementById("like-count").textContent = likeCount;
         }
+
+//*****faux chargement test ***** */
+document.addEventListener("DOMContentLoaded", function () {
+    let loader = document.getElementById("loader");
+    let content = document.getElementById("content");
+
+    setTimeout(() => {
+        loader.style.display = "none";  
+        content.style.display = "block"; 
+    }, 1500); 
+});
+

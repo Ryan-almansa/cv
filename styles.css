@@ -1,3 +1,27 @@
+/***faux chargement au debut **/
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(151, 36, 36, 0.788); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+#loader img {
+    width: 2000px; 
+    height: auto;
+}
+
+#content {
+    display: none; 
+}
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -24,26 +48,26 @@ nav ul li a {
 }
 
 #headerAcceuil {
-    background: #4677a0f6; /* Couleur de fond */
-    color: white; /* Texte blanc */
-    padding: 20px; /* Espacement autour du contenu */
-    text-align: center; /* Centrer le texte */
-    display: flex; /* Utilisation de Flexbox */
-    flex-direction: column; /* Alignement vertical des éléments */
-    justify-content: center; /* Centrer les éléments sur l'axe vertical */
-    align-items: center; /* Centrer les éléments sur l'axe horizontal */
-    border-radius: 10px; /* Coins arrondis */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre douce autour du header */
+    background: #4677a0f6; 
+    color: white; 
+    padding: 20px; 
+    text-align: center;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 #headerAcceuil h1 {
-    font-size: 2.5em; /* Taille du titre */
-    margin: 0; /* Supprime les marges par défaut */
+    font-size: 2.5em; 
+    margin: 0; 
 }
 
 #headerAcceuil p {
-    font-size: 1.1em; /* Taille du texte du paragraphe */
-    margin: 10px 0 0; /* Espacement uniquement au-dessus du paragraphe */
+    font-size: 1.1em; 
+    margin: 10px 0 0; 
 }
 
 
