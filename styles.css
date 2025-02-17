@@ -23,6 +23,31 @@ nav ul li a {
     text-decoration: none;
 }
 
+#headerAcceuil {
+    background: #4677a0f6; /* Couleur de fond */
+    color: white; /* Texte blanc */
+    padding: 20px; /* Espacement autour du contenu */
+    text-align: center; /* Centrer le texte */
+    display: flex; /* Utilisation de Flexbox */
+    flex-direction: column; /* Alignement vertical des éléments */
+    justify-content: center; /* Centrer les éléments sur l'axe vertical */
+    align-items: center; /* Centrer les éléments sur l'axe horizontal */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre douce autour du header */
+}
+
+#headerAcceuil h1 {
+    font-size: 2.5em; /* Taille du titre */
+    margin: 0; /* Supprime les marges par défaut */
+}
+
+#headerAcceuil p {
+    font-size: 1.1em; /* Taille du texte du paragraphe */
+    margin: 10px 0 0; /* Espacement uniquement au-dessus du paragraphe */
+}
+
+
+
 header {
     background: #1e88e58f; 
     color: white;
@@ -462,7 +487,7 @@ nav ul li a {
 }
 
 header {
-    background: #1e88e500; 
+    background: #1e88e565; 
     color: white;
     padding: 20px;
     text-align: center;
