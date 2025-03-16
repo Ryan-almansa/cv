@@ -1,0 +1,46 @@
+
+#formation{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+#formation h2{
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+.diplomes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.diplome{
+    display: flex;
+    flex-direction: column;
+}
+
+.diplome img{
+    border-radius: 1rem;
+    max-width: 25rem;
+}
+
+.info{
+    padding-left: 1.5rem;
+}
+
+.diplome .info{
+    display: flex;
+    flex-direction: column;
+}
+
+.info h3{
+    font-size: 2rem;
+}
+
+.info p{
+    font-size: 1.2rem;
+}

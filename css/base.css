@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+@import url("header.css");
+@import url("formation.css");
+@import url("experience.css");
+@import url("competence.css");
+@import url("description.css");
+@import url("footer.css");
+
+*{
+    font-family: "Lexend Deca", sans-serif;
+}
+html, body {
+    overflow-x: hidden;
+}
+html{
+    font-size: 16px;
+}
+
+span{
+    color: #759fe7;
+    
+}
+
+span.violet{
+    color: #be65f1;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    color: #f8d1e3;
+    transition: 0.3s ease;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #080524;
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}

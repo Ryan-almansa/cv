@@ -1,0 +1,28 @@
+#description {
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    border-top: #759fe7 0.2rem solid;
+    border-bottom: #759fe7 0.2rem solid;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #100e35 30%, #100e35 100%);
+}
+
+#description::before {
+    content: "";
+    position: absolute;
+    inset: 0; 
+    background: url('../asset/backgroundDesc.png') center/cover no-repeat;
+    filter: blur(10px);
+    z-index: -1; 
+}
+
+.textdesc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3rem 15rem;
+    margin-left: 40rem;
+    width: 60rem;
+}
+
