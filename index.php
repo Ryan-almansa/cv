@@ -15,11 +15,11 @@
         <nav class="nav">
             <div class="logo">Ryan Almansa</div>
             <div class="menu" id="menu">
-                <a href="./page/Profil.html">Profil</a>
-                <a href="./page/experience.html">Expériences</a>
+                <a href="#Profil">Profil</a>
+                <a href="#experience">Expériences</a>
                 <a href="#formation">Formation</a>
-                <a href="./page/competences.html">Compétences</a>
-                <a href="./page/contact.html">Contact</a>
+                <a href="#competences">Compétences</a>
+                <a href="#competences">Contact</a>
             </div>
             <div class="toggle" id="toggle">☰</div>
         </nav>
@@ -39,22 +39,22 @@
             <div class="diplome">
                 <img src="asset/DiplomeBACRyan.jpg">
                 <div class="info">
-                    <h3>Titre</h3>
-                    <p>Description</p>
+                    <h3>Baccalauréat</h3>
+                    <p>STI2D</p>
                 </div>
             </div>
             <div class="diplome">
                 <img src="asset/PSe1.jpg">
                 <div class="info">
-                    <h3>Titre</h3>
-                    <p>Description</p>
+                    <h3>PSE1</h3>
+                    <p>Premiers Secours en Equipe de niveau 1</p>
                 </div>
             </div>
             <div class="diplome">
                 <img  src="asset/DiplomeBrevetRyan.jpg">
                 <div class="info">
-                    <h3>Titre</h3>
-                    <p>Description</p>
+                    <h3>BREVET</h3>
+                    <p>Brevet des collège </p>
                 </div>
             </div>
         </div>
@@ -74,11 +74,11 @@
             <div class="experience">
                 <div class="exphead">
                     <h4>SNU</h4>
-                    <img src="/asset/SNU.png" class="small">
+                    <img src="asset/SNU.png" class="small">
                 </div>
                 <div class="expbody">
-                    <p>J'ai effectuer le Service national universel dans le but d'apprendre les valeur 
-                        republicaine (liberté, égalité, fraternité) et de développer un esprit civique.</p>
+                    <p>J'ai effectué le Service national universel dans le but d'apprendre les valeurs 
+                        republicaines (liberté, égalité, fraternité) et de développer un esprit civique.</p>
                 </div>
             </div>
         </div>
@@ -115,22 +115,22 @@
             <div class="contactprofile box">
                 <div class="name">
                     <p>Ryan Almansa</p>
-                    <img src="/asset/contentResize.png" class="fire-btn">
+                    <img src="asset/contentResize.png" class="fire-btn">
                 </div>
                 <div class="item">
                     <i class="fa-solid fa-phone fa-fade"></i>
                     <span>Numéro : </span>
-                    <label>666666666</label>
+                    <label>07.68.60.06.87</label>
                 </div>
                 <div class="item">
                     <i class="fa-brands fa-linkedin-in"></i>
-                    <a href="#">Linkedin </a>
-                    <label> <i class="fa-solid fa-arrow-left"></i> moi bg!</label>
+                    <a href="https://www.linkedin.com/in/ryan-almansa-9a950b312/">Linkedin </a>
+                    <label> <i class="fa-solid fa-arrow-left"></i> mon Linkedin</label>
                 </div>
                 <div class="item">
                     <i class="fa-brands fa-github"></i>
-                    <a href="#">GitHub </a>
-                    <label> <i class="fa-solid fa-arrow-left"></i> mon code !</label>
+                    <a href="https://github.com/dashboard">GitHub </a>
+                    <label> <i class="fa-solid fa-arrow-left"></i> mes Projet </label>
                 </div>
             </div>
         </div>
